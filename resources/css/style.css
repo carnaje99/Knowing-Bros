@@ -468,6 +468,10 @@ footer p {
     max-width: 100%;
     position: relative;
 }
+.thmb-x {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url(img/thumbnailx.jpg);
+
+}
 .thmb:hover {
     transform: scale(1.02);
     transition: transform .5s;
@@ -611,10 +615,6 @@ header {
     float: left;
     margin-top: 20px;
 }
-.logo:hover {
-    animation: moveAround 1s ease-out;
-}
-
 .main-nav {
     float: right;
     list-style: none;
@@ -638,16 +638,4 @@ header {
 .main-nav li a:hover,
 .main-nav li a:active {
     border-bottom: 2px solid #FDC300;
-}
-
-
-
-@keyframes moveAround {
-    0% {
-        transform: rotate(0deg);
-    }
-
-    100% {
-        transform: rotate(360deg);
-    }
 }
